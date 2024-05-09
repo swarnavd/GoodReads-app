@@ -30,7 +30,6 @@ $(document).ready(function () {
         'book-id': bookId
       },
       success: function (response) {
-        console.log(response);
         $(".default-show").html(response);
       }
 
@@ -66,7 +65,6 @@ $(document).ready(function () {
       success: function (response) {
         $(".default-show").html(response);
       }
-
     })
   })
 })
